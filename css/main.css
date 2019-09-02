@@ -13,8 +13,9 @@ h3{
   font-size: 30px;
 }
 
-p{
+p, li{
   font-family: 'Roboto', sans-serif;
+  font-size: 18px;
 
 }
 /*Colores*/
@@ -31,7 +32,7 @@ p{
   color:#0F0D0E;
 }
 .c-white{
-  color: #F8F8F8;
+  color: whitesmoke;
 }
 
 
@@ -63,4 +64,8 @@ header{
 
 .photo{
   max-width: 350px;
+}
+
+.txt-light{
+  font-weight: 300;
 }
