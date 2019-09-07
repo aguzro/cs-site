@@ -71,7 +71,7 @@ header{
 /*Media queries*/
 @media (min-width: 992px) {
   .photo{
-    max-width: 350px;
+    max-width: 280px;
   }
 }
 
