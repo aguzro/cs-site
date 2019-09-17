@@ -47,6 +47,9 @@ header{
   background-size: cover;
   background-position: center;
 }
+nav{
+  z-index: 2000;
+}
 .title{
   padding-top: 17%; 
 }
