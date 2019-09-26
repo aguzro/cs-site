@@ -63,6 +63,13 @@ nav{
 .txt-light{
   font-weight: 300;
 }
+span{
+  background-color: whitesmoke;
+  padding: 1%;
+  color: #5670C3;
+  font-size: 18px;
+  font-weight: 500;
+}
 
 
 
