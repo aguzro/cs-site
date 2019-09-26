@@ -21,7 +21,6 @@ p, li{
 /*Colores*/
 .nav-colored{
   background-color: #5670C3 !important;
-  color: white !important;
 }
 .bg-blue{
   background-color: #5670C3;
@@ -38,7 +37,9 @@ p, li{
 .c-white{
   color: whitesmoke;
 }
-
+nav ul li a{
+  color: white !important;
+}
 
 /*Estilos del sitio*/
 header{
@@ -63,16 +64,19 @@ nav{
 .txt-light{
   font-weight: 300;
 }
-span{
+footer span{
   background-color: whitesmoke;
   padding: 1%;
   color: #5670C3;
   font-size: 18px;
   font-weight: 500;
 }
-
-
-
+.carousel-indicators li{
+  background-color: #5670C3;
+}
+.navbar-nav{
+  margin-left: auto!important;
+}
 
 /*Media queries*/
 @media (min-width: 992px) {
