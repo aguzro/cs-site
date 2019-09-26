@@ -7,15 +7,15 @@ h1{
   font-size: 60px;
 }
 h2{
-  font-size: 45px;
-  padding-bottom: 3%;
+  font-size: 40px;
+  padding-bottom: 2%;
 }
 h3{
-  font-size: 30px;
+  font-size: 25px;
 }
 p, li{
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 
 }
 /*Colores*/
@@ -60,14 +60,6 @@ nav{
   padding: 5% 0;
   margin: 3% 0;
 }
-
-.bg-irene{
-  background-image: url("");
-}
-
-.bg-javiera{
-  background-image: url("https://images.unsplash.com/photo-1464863979621-258859e62245?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80");
-}
 .txt-light{
   font-weight: 300;
 }
@@ -78,7 +70,7 @@ nav{
 /*Media queries*/
 @media (min-width: 992px) {
   .photo{
-    max-width: 280px;
+    max-width: 300px;
   }
 }
 
