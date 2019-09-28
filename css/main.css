@@ -47,6 +47,10 @@ p, li{
 }*/
 
 /*Estilos del sitio*/
+
+html{
+  scroll-behavior: smooth;
+}
 header{
   height: 100vh;
   /*background-image: url(https://images.unsplash.com/photo-1485988412941-77a35537dae4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1972&q=80),linear-gradient(to left  rgba(20,20,20,1));
