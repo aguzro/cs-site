@@ -16,7 +16,7 @@ h3{
 p, li{
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-
+  
 }
 /*Colores*/
 .nav-colored{
@@ -57,7 +57,21 @@ nav{
   z-index: 2000;
 }
 .title{
-  padding-top: 17%; 
+  margin-top: 200px; 
+}
+#img-header{
+  margin-top: 150px;
+  position: relative;
+}
+#img-header::before{
+  content: "";
+  background-color: #5670C3;
+  position: absolute;
+  width: 530px;
+  height: 400px;
+  z-index: -1;
+  top: -30px;
+  left: 70px;
 }
 .pd-section{
   padding: 5% 0;
