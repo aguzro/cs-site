@@ -21,6 +21,11 @@ p, li{
 /*Colores*/
 .nav-colored{
   background-color: #5670C3 !important;
+  color: white !important;
+}
+.nav-transparent{
+  background-color: transparent;
+  color:  #5670C3 !important;
 }
 .bg-blue{
   background-color: #5670C3;
@@ -37,16 +42,16 @@ p, li{
 .c-white{
   color: whitesmoke;
 }
-nav ul li a{
+/*nav ul li a{
   color: white !important;
-}
+}*/
 
 /*Estilos del sitio*/
 header{
   height: 100vh;
-  background-image: url(https://images.unsplash.com/photo-1485988412941-77a35537dae4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1972&q=80),linear-gradient(to left  rgba(20,20,20,1));
+  /*background-image: url(https://images.unsplash.com/photo-1485988412941-77a35537dae4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1972&q=80),linear-gradient(to left  rgba(20,20,20,1));
   background-size: cover;
-  background-position: center;
+  background-position: center;*/
 }
 nav{
   z-index: 2000;
