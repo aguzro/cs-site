@@ -1,4 +1,4 @@
-window.addEventListener('scroll', function (e) {
+/*window.addEventListener('scroll', function (e) {
   var nav = document.querySelector('nav');
   if (window.scrollY >= 150) {
           nav.classList.add('nav-colored');
@@ -7,4 +7,4 @@ window.addEventListener('scroll', function (e) {
           nav.classList.add('nav-transparent');
           nav.classList.remove('nav-colored');
       }
-});
+});*/
