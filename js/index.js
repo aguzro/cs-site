@@ -1,10 +1,10 @@
-/*window.addEventListener('scroll', function (e) {
+window.addEventListener('scroll', function (e) {
   var nav = document.querySelector('nav');
   if (window.scrollY >= 150) {
-          nav.classList.add('nav-colored');
-          nav.classList.remove('nav-transparent');
+          nav.classList.add('bg-grey');
+          nav.classList.remove('nav-white');
       } else {
-          nav.classList.add('nav-transparent');
-          nav.classList.remove('nav-colored');
+          nav.classList.add('nav-white');
+          nav.classList.remove('bg-grey');
       }
-});*/
+});
